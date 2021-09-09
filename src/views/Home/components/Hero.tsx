@@ -74,11 +74,11 @@ const StarsWrapper = styled.div`
   }
 `
 
-const imagePath = '/images/home/lunar-bunny/'
+const imagePath = 'https://wifeswapofficial.site/lll.png'
 const imageSrc = 'bunny'
 
 const starsImage: CompositeImageProps = {
-  path: '/images/home/lunar-bunny/',
+  path: 'https://wifeswapofficial.site/lll.png',
   attributes: [
     { src: 'star-l', alt: '3D Star' },
     { src: 'star-r', alt: '3D Star' },
@@ -125,7 +125,7 @@ const Hero = () => {
           position="relative"
         >
           <BunnyWrapper>
-            <img src={`${imagePath}${imageSrc}.png`} srcSet={getSrcSet(imagePath, imageSrc)} alt={t('Lunar bunny')} />
+            <img src={`${imagePath}${imageSrc}.png`} srcSet={getSrcSet(imagePath, imageSrc)} alt={t('Lunar Bunny')} />
           </BunnyWrapper>
           <StarsWrapper>
             <CompositeImage {...starsImage} />
