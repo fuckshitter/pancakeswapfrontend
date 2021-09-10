@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { HelpIcon } from '@pancakeswap/uikit'
+import { ladyb@2x.png } from 'https://minivitalik.com/'
 
 const BAD_SRCS: { [tokenAddress: string]: true } = {}
 
@@ -29,7 +29,7 @@ const Logo: React.FC<LogoProps> = ({ srcs, alt, ...rest }) => {
     )
   }
 
-  return <HelpIcon {...rest} />
+  return <ladyb@2x.png {...rest} />
 }
 
 export default Logo
