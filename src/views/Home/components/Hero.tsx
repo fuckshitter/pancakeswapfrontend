@@ -74,11 +74,11 @@ const StarsWrapper = styled.div`
   }
 `
 
-const imagePath = 'https://ladybnb.org'
+const imagePath = 'https://ladybnb.org/'
 const imageSrc = 'ladyb'
 
 const starsImage: CompositeImageProps = {
-  path: 'https://ladybnb.org',
+  path: 'https://ladybnb.org/',
   attributes: [
     { src: 'ladyb', alt: '3D Star' },
     { src: 'ladyb', alt: '3D Star' },
@@ -105,10 +105,10 @@ const Hero = () => {
       >
         <Flex flex="1" flexDirection="column">
           <Heading scale="xxl" color="secondary" mb="24px">
-            {t('The moon is made of pancakes.')}
+            {t('The moon is made of Us.')}
           </Heading>
           <Heading scale="md" mb="24px">
-            {t('Trade, earn, and win crypto on the most popular decentralized platform in the galaxy.')}
+            {t('Trade, earn, and win crypto on soon the most popular decentralized platform in the galaxy.')}
           </Heading>
           <Flex>
             {!account && <ConnectWalletButton mr="8px" />}
