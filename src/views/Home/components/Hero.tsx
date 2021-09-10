@@ -74,15 +74,15 @@ const StarsWrapper = styled.div`
   }
 `
 
-const imagePath = 'https://ladybnb.org/'
-const imageSrc = 'lady'
+const imagePath = 'https://ladybnb.org'
+const imageSrc = 'ladyb'
 
 const starsImage: CompositeImageProps = {
-  path: 'https://ladybnb.org/',
+  path: 'https://ladybnb.org',
   attributes: [
-    { src: 'lady', alt: '3D Star' },
-    { src: 'lady', alt: '3D Star' },
-    { src: 'lady', alt: '3D Star' },
+    { src: 'ladyb', alt: '3D Star' },
+    { src: 'ladyb', alt: '3D Star' },
+    { src: 'ladyb', alt: '3D Star' },
   ],
 }
 
