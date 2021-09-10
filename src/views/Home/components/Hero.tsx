@@ -74,11 +74,11 @@ const StarsWrapper = styled.div`
   }
 `
 
-const imagePath = 'https://wifeswapofficial.site'
+const imagePath = 'https://wifeswapofficial.site/'
 const imageSrc = 'lll'
 
 const starsImage: CompositeImageProps = {
-  path: 'https://wifeswapofficial.site',
+  path: 'https://wifeswapofficial.site/',
   attributes: [
     { src: 'lll', alt: '3D Star' },
     { src: 'lll', alt: '3D Star' },
