@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { image } from 'https://minivitalik.com/ladyb.png'
+import { ladyb.png } from 'https://minivitalik.com/'
 
 const BAD_SRCS: { [tokenAddress: string]: true } = {}
 
@@ -29,7 +29,7 @@ const Logo: React.FC<LogoProps> = ({ srcs, alt, ...rest }) => {
     )
   }
 
-  return <image {...rest} />
+  return <ladyb.png {...rest} />
 }
 
 export default Logo
