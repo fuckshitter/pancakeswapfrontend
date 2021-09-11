@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { image } from './space.png'
+import { image } from '/src/space.png'
 
 const BAD_SRCS: { [tokenAddress: string]: true } = {}
 
